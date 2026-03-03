@@ -1,3 +1,6 @@
 spring:
   application:
     name: DockerExample
+app:
+  file:
+    path: ./EmployeeName.txt
