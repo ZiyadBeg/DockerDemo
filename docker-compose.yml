@@ -1,0 +1,12 @@
+version: '1.0'
+services:
+  web-app:
+    image: a68b5459d1ad
+    ports:
+      - "9090:9090"
+    environment:
+      - SERVER_PORT=9090
+    volumes:
+      - name-volume:/app
+volumes:
+  name-volume:
